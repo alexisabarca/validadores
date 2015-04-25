@@ -1,0 +1,12 @@
+
+<!-- saved from url=(0069)http://users.dcc.uchile.cl/~mortega/microcodigos/validarrut/java.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style type="text/css"></style></head><body><h1>Validar RUT!<br>Java</h1>
+
+<p>Enviado por Luis Dujovne</p>
+<pre>
+class v{ public static void main(String args[]){int M=0,S=1,T=
+Integer.parseInt(args[0]);for(;T!=0;T/=10)S=(S+T%10*(9-M++%6))%11;
+System.out.println((char)(S!=0?S+47:75));}}
+
+</pre>
+</body></html>

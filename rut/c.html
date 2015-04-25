@@ -1,0 +1,10 @@
+
+<!-- saved from url=(0066)http://users.dcc.uchile.cl/~mortega/microcodigos/validarrut/c.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style type="text/css"></style></head><body><h1>Validar RUT!<br>C</h1>
+
+<pre>
+main(){int T,M=0,S=1;scanf("%d",&amp;T);for(;T;T/=10)S=(S+T%10*(9-M++%6))%11;
+printf("%c\n",S?S+47:75);}
+
+</pre>
+</body></html>
