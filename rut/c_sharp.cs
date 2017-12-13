@@ -1,9 +1,4 @@
 
-<!-- saved from url=(0072)http://users.dcc.uchile.cl/~mortega/microcodigos/validarrut/c_sharp.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style type="text/css"></style></head><body><h1>Validar RUT!<br>C Sharp C#</h1>
-
-<p>Enviado por Alejandra Cruzat</p>
-<pre>
 private string digitoVerificador(int rut)
 {
       int Digito;
@@ -42,5 +37,3 @@ private string digitoVerificador(int rut)
       }
 
       }
-</pre>
-</body></html>
