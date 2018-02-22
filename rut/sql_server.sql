@@ -43,12 +43,12 @@ begin
    set @dv='0'
  end
 
- if @valor&gt;1 and @valor&lt;11
+ if @valor>1 and @valor<11
  begin
    set @dv=str(11-@valor,1)
  end
 
- if @dv&lt;&gt;substring(@ruti,9,1)
+ if @dv<>substring(@ruti,9,1)
  begin
    raiserror('verifique su rut',16,1)
    rollback transaction
