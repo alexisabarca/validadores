@@ -1,9 +1,3 @@
-
-<!-- saved from url=(0075)http://users.dcc.uchile.cl/~mortega/microcodigos/validarrut/sql_server.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style type="text/css"></style></head><body><h1>Validar RUT!<br>SQL Server 2000</h1>
-
-<p>Enviado por German González</p>
-<pre>
 /****** Object:  Trigger dbo.verif_rut    Script Date: 01/07/03 23:01:09 ******/
 if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[verif_rut]') and OBJECTPROPERTY(id, N'IsTrigger') = 1)
 drop trigger [dbo].[verif_rut]
@@ -63,6 +57,3 @@ begin
 end
 
 GO
-
-s</pre>
-</body></html>
